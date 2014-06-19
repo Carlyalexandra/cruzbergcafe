@@ -1,3 +1,44 @@
 #wrap {
 	border:solid;
+	width: 900px;
+}
+
+nav {
+	position: relative;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	clear: both;
+	font: 15px 'Philospher', sans-serif;
+
+}
+
+.currentLink{
+
+	color: rgb(5,169,197);
+}
+
+nav li{
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: rgb(119,119,127);
+}
+
+nav a:hover {
+	color: rgb(5,169,197);
+}
+
+#menu {
+	width: 900px;
+	height:1200px;
+}
+
+#menu img {
+	width:900px;
+	height: auto;
+
 }
