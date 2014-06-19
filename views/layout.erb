@@ -2,16 +2,62 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Cruzberg Cafe</title>
+	<title><%=@title  ||= "Cruzberg Cafe" %></title>
 	<link rel="stylesheet" href="/css/reset.css">
-	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/css/style.css">
+	
 	<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 
 </head>
 <body>
+<!-- on ever page -->
+<div id="wrap">
+	
+		<h1><a href="index">Cruzberg <br>Cafe</a></h1>
+		
+	
+	<div id="social">
+		<div>RESERVATIONS</div>
+		<p>123 Elm street, Denmark</p>
+		<p>contact us:</p>
+		<ul>	
+			<li><a id="instagram" href=""target="_blank">instagram</a></li>
+			<li><a id="twit" href="" target="_blank">twitter</a></li>
+			<li><a id="facebook" href="">facebook</a></li>
+		</ul>
+	</div>	
+<br>
+<br>
+<br>
+<hr>
+	<nav>
+		<ul>
+			<li><a href="breakfast">breakfast</a></li>
+			<li><a href="lunch">lunch</a></li>
+			<li><a href="dinner">dinner</a></li>
+			<li><a href="takeout">take out</a></li>
+			<li><a href="gallery">gallery</a></li>
+		</ul>
+	</nav>
+	<hr>
+	<br>
+	
+
+	<div id="container">
+	<%= yield %>
+    </div>
+	
+
+	<br><br>
+	<hr>
+	<footer>
+		<p>Copywrite &copy 2014 Cruzberg Cafe</p>
+	</footer>
+</div>	
 	
 </body>
 </html>
