@@ -1,33 +1,93 @@
 #wrap {
 	border: solid 5px;
 	width: 900px;
+	margin-right: auto;
+	margin-left: auto; 
+	margin-top: 30px;
+	 background: #fff;
+	 box-shadow: 0 3px 10px -2px rgba(0,0,0,.1);
+	 border: 1px solid rgba(0,0,0,.1);
+	
 }
 
-/*this is the code for the nav bar*/
+header { 
 
+	height: 100px;
+
+}
+/*Cruzberg Logo */
+#logo {
+
+	width: 200px;
+	height: 100px;
+	float: left;
+	font-size:  40px;
+	font-family: "Raleway";
+
+	
+
+}
+
+/* Reservations, Contact Us, and Social Media buttons */
+#social{ 
+	width:  200px;
+	float: right;
+	font-size: 10px;
+
+	}
+
+/*this is the code for the nav bar*/	
 nav {
+	height: 50px;
+	width: 900px;
+	
+	display: table; 
 	position: relative;
-	margin-top: 12px;
-	margin-left: 150px;
-	margin-bottom: 12px;
+	margin-left: auto;
+	margin-right:auto;
 	clear: both;
 	font: 15px 'Philospher', sans-serif;
+	  background: #fff;
+	  box-shadow: 0 3px 10px -2px rgba(0,0,0,.1);
+	  border: 1px solid rgba(0,0,0,.1);
+	
+}
+
+/* Breakfast, Lunch, Dinner , Takeout */
+.meal{ 
+
+	width: 650px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+
+	vertical-align: middle;
+
 }
 
 nav li{
 	display: inline-block;
 	margin-right: 80px;
+	vertical-align: middle;
+
 }
 
 nav a {
-	text-decoration: none;
-	color: rgb(119,119,127);
+	
+
 }
 
 nav a:hover {
-	color: rgb(5,169,197);
+	
 }
 
+
+#container{ 
+	max-height: 669px;
+	max-width: 900px;
+	background-image:  url(/images/bg.jpg);
+	i
+}
 /*this is where the code for the menus start*/
 
 #menu {
@@ -51,6 +111,14 @@ footer {
 	color: rgb(153,153,153);
 	margin-bottom: 20px;
 	margin-top: 20px;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+#copyright{
+	width:  150px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*this is where the code for the gallery starts*/
