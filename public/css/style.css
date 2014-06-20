@@ -116,10 +116,17 @@ footer {
   margin-left: 40px;
   font-size: 15px;
   color: rgb(153,153,153);
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 10px;
+  height: 25px;
 }
 
+#copyright { 
+    float: left ;
+}
+#location { 
+  float: right;
+  margin-right: 20px;
+}
 
 button {
   margin-top: 35px;
