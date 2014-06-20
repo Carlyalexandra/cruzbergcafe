@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title><%=@title  ||= "Cruzberg Cafe" %></title>
+	<title><%=@title  ||= "Cruzberg Café" %></title>
 	<link rel="stylesheet" href="/css/reset.css">
 	<link rel="stylesheet" href="/css/style.css">
 	
@@ -19,14 +19,18 @@
 	
 </head>
 <body>
-<!-- on ever page -->
+<!-- on every page -->
 <div id="wrap">
-	
-		<h1><a href="index">Cruzberg <br>Café</a></h1>
+	      <header> 	
+		<h1 id= "logo"><a href="index">Cruzberg <br>Café</a></h1>
 		
 	
 	<div id="social">
-		<div>RESERVATIONS</div>
+		<button id="button"> 
+
+		<a href="reservation" target="_blank">RESERVATIONS</a>
+
+		</button>
 		<p>123 Elm street, Denmark</p>
 		<p>contact us:</p>
 		<ul>	
@@ -35,9 +39,8 @@
 			<li><a id="facebook" href="">facebook</a></li>
 		</ul>
 	</div>	
-<br>
-<br>
-<br>
+	</header>
+
 <hr>
 	<nav>
 		<ul>
@@ -49,6 +52,7 @@
 		</ul>
 	</nav>
 	<hr>
+
 	<br>
 	
 
@@ -60,7 +64,7 @@
 	<br><br>
 	<hr>
 	<footer>
-		<p>Copywrite &copy 2014 Cruzberg Café</p>
+		<p id= "copyright">©  2014 Cruzberg Café</p>
 	</footer>
 </div>	
 	
