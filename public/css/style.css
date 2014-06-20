@@ -1,26 +1,22 @@
 #wrap {
-	border:solid;
+	border: solid 5px;
 	width: 900px;
 }
 
+/*this is the code for the nav bar*/
+
 nav {
 	position: relative;
-	margin-top: 20px;
-	margin-left: 40px;
-	margin-bottom: 20px;
+	margin-top: 12px;
+	margin-left: 150px;
+	margin-bottom: 12px;
 	clear: both;
 	font: 15px 'Philospher', sans-serif;
-
-}
-
-.currentLink{
-
-	color: rgb(5,169,197);
 }
 
 nav li{
 	display: inline-block;
-	margin-right: 20px;
+	margin-right: 80px;
 }
 
 nav a {
@@ -32,13 +28,57 @@ nav a:hover {
 	color: rgb(5,169,197);
 }
 
+/*this is where the code for the menus start*/
+
 #menu {
-	width: 900px;
-	height:1200px;
+	width: 860px;
+	height:auto;
+	border: solid 1px;
+	margin: auto;
 }
 
 #menu img {
-	width:900px;
+	width:860px;
 	height: auto;
+	margin:auto;
+	position: center;
 
 }
+
+footer {
+	margin-left: 40px;
+	font-size: 15px;
+	color: rgb(153,153,153);
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+/*this is where the code for the gallery starts*/
+
+#lightbox{
+	background-color:#eee;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	}
+#lightboxDetails{
+	font-size: 0.8em;
+	padding-top: 0.4em;
+	}	
+#lightboxCaption{ float: left; }
+#keyboardMsg{ float: right; }
+#closeButton{ top: 5px; right: 5px; }
+
+#lightbox img{ border: none; clear: both;} 
+#overlay img{ border: none; margin: 6px; border-radius: 5px;}
+
+#overlay{ background-image: url(/images/overlay.png); 
+	margin: 10px; padding-left: 10px; border-radius: 3px;
+	padding-top: 10px; padding-bottom: 10px}
+
+* html #overlay{
+	background-color: #333;
+	back\ground-color: transparent;
+	background-image: url(/images/blank.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="overlay.png", sizingMethod="scale");
+	}
