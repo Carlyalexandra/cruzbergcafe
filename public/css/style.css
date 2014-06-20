@@ -19,15 +19,21 @@ header {
 }
 /*Cruzberg Logo */
 #logo {
-
+  margin-left: 5px;
 	width: 200px;
 	height: 100px;
 	float: left;
 	font-size:  40px;
 	font-family: "Raleway";
+}
 
-	
+#logo a {
+  text-decoration: none;
+  color:rgb(85,83,86);
+}
 
+#logo a:active {
+  color: rgb(5,169,197);
 }
 
 /* Reservations, Contact Us, and Social Media buttons */
@@ -37,8 +43,6 @@ header {
 	font-size: 10px;
 
 	}
-
-/*this is the code for the nav bar*/	
 
 /*this is the code for the nav bar*/
 
@@ -79,10 +83,11 @@ nav a:hover {
 }
 
 #mainpage img { 
-	width:860px;
+	width:900px;
   height: auto;
   margin:auto;
   position: center;
+  margin-top: -23px;
 
 	
 }*/
@@ -116,6 +121,49 @@ footer {
 }
 
 
+button {
+  margin-top: 35px;
+  border-radius: 3px;
+  outline: none;
+  margin-left: 20px;
+  background-color: rgb(142,159,159);
+
+}
+button a, button :active {
+  outline: none;
+
+}
+
+button a, button :visited {
+  outline: none;
+
+}
+
+button a {
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  outline: none;
+  padding: 10px;
+  font:'Calibri', sans-serif;
+}
+
+#icons img {
+  width: 20px;
+  height: auto;
+
+}
+
+#icons li {
+  margin-top: 10px;
+  display: inline-block;
+  padding-right: 5px;
+}
+ #icons {
+ margin-left: 85px;
+ }
+
+
 /*this is where the code for the gallery starts*/
 
 
@@ -124,6 +172,9 @@ body:after {
   display: none;
 }
 
+#examples {
+  margin-left: 25px;
+}
 .containerg{margin:0 auto;max-width:60rem;width:90%}
 
 .example-image-link{display:inline-block;padding:4px;
