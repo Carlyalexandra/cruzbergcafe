@@ -60,8 +60,11 @@ end
 
 post '/new-reservation' do 
 	request_res(params[:who], params[:party_size], params[:day], params[:time], params[:contact])
-	redirect to('/')
+	redirect to '/reservation-made'
 end
 
-
+get '/reservation-made' do 
+	@title = "Reservation Recieved"
+	erb :resmade, :layout => false
+end
 
