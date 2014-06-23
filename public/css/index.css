@@ -393,13 +393,13 @@ body:after {
 /*Index Slider Background*/
 .slider-wrap {
   width: 900px;
-  height: 700px;
+  height: auto;
   margin: 20px auto;
 }
 .slider {
   overflow-x: scroll;
   width: 900px;
-  height: 700px;
+  height: auto;
 }
 .holder {
   width: 2700px;
@@ -407,7 +407,7 @@ body:after {
 .slide {
   float: left;
   width: 900px;
-  height: 700px;
+  height: ;
   position: relative;
   background-position: -100px 0;
 }

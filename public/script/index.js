@@ -1,4 +1,5 @@
- el: {
+
+  el: {
     slider: $("#slider"),
     allSlides: $(".slide"),
     sliderNav: $(".slider-nav"),
@@ -51,6 +52,6 @@
     $(el).addClass("active");
   }
   
-};
+ };
 
 slider.init();
