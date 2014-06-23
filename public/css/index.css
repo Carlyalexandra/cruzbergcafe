@@ -398,9 +398,11 @@ body:after {
 }
 .slider {
   overflow-x: scroll;
+  width: 900px;
+  height: 700px;
 }
 .holder {
-  width: 500%;
+  width: 2700px;
 }
 .slide {
   float: left;
