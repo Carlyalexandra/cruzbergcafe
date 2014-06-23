@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+
 //**********************lightbox script starts here:
 /**
  * Lightbox v2.7.1
@@ -409,4 +410,5 @@ $(document).ready(function(){
     var lightbox = new Lightbox(options);
   });
 }).call(this);
+
 
